@@ -1,0 +1,482 @@
+{
+  "property": {
+    "name": "Casa Corsica",
+    "tagline": "Your home away from home on the Weskus",
+    "location": "Shelley Point, St Helena Bay",
+    "address": "Casa Corsica, Shelley Point, St Helena Bay, South Africa",
+    "heroImage": "/images/hero.webp"
+  },
+  "welcome": {
+    "greeting": "Welkom and welcome to Casa Corsica! We are so happy you chose our little piece of the West Coast. Kick off your shoes, open the doors to the sea air and make yourself at home. Everything you need for a slow, salty, sun-filled stay is in this guide — and if anything is missing, just give us a shout.",
+    "checkInNotes": "Self check-in from 15:00. The key lockbox is to the left of the front door — your code is sent the morning of arrival.",
+    "wifi": {
+      "network": "ShellWeConnect"
+    },
+    "parking": "Up to three cars can fit diagonally in the driveway in front of the No. 17 Garage — Shelley Point is a secure estate and your vehicle will be safe. Please don't park as to obstruct other vehicles on the street or in front of the neighbour's garage."
+  },
+  "thingsToDo": {
+    "categories": ["outdoors", "wildlife", "family", "history", "beach", "food & wine", "active"],
+    "local": [
+      {
+        "id": "stompneuspunt-lighthouse",
+        "name": "Shelley Point Lighthouse",
+        "description": "A brief walk / drive to the historic lighthouse named Stompneuspunt perched North East edge of the estate with sweeping views of the ocean. Either take a short walk from the front door to or drive to the designated parking area. Proceeed with a brief walk on the beach, panoramic vistas and photo opportunities await.",
+        "image": "/images/lighthouse.webp",
+        "time": "15 min walk",
+        "categories": ["outdoors", "wildlife", "family", "history", "beach", "active"],
+        "mapsQuery": "Shelley Point Lighthouse, St Helena Bay",
+        "tripadvisor": "https://www.tripadvisor.co.za/Attraction_Review-g658748-d10162907-Reviews-Stompneus_Point_Lighthouse-St_Helena_Bay_Saldanha_Bay_Municipality_Western_Cape.html",
+        "additionalLinks": [{"title": "Walking Path", "url": "https://maps.app.goo.gl/B54D8DwKn5pTAmgz8"},{"title": "Parking Area", "url": "https://maps.app.goo.gl/HUESwi4vWKrLNz5R7"}]
+      },
+      {
+        "id": "shelley-point-beach",
+        "name": "Shelley Point Beach Walk",
+        "description": "A sheltered, crescent-shaped beach right on your doorstep. Perfect for sunrise walks, beachcombing for shells and a safe paddle in the calm bay.",
+        "image": "/images/beach-walk.webp",
+        "time": "5 min walk",
+        "categories": ["beach", "outdoors", "family"],
+        "mapsQuery": "Shelley Point Beach, St Helena Bay",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Shelley+Point+St+Helena+Bay"
+      },
+      {
+        "id": "whale-watching",
+        "name": "Whale & Dolphin Spotting",
+        "description": "From June to November, southern right and humpback whales visit the bay. Grab the binoculars from the hall cupboard and head to the point at high tide.",
+        "image": "/images/whales.webp",
+        "time": "10 min walk",
+        "categories": ["wildlife", "outdoors", "family"],
+        "mapsQuery": "Shelley Point, St Helena Bay"
+      },
+      {
+        "id": "shelley-point-golf",
+        "name": "Shelley Point Golf Course",
+        "description": "A scenic 9-hole links course overlooking the ocean. Visitors welcome — book a tee time at the clubhouse or simply enjoy a sundowner on the terrace.",
+        "image": "/images/golf.webp",
+        "time": "5 min drive",
+        "categories": ["active", "outdoors"],
+        "mapsQuery": "Shelley Point Golf Club, St Helena Bay",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Shelley+Point+Golf",
+        "additionalLinks": [{"title": "Golf", "url": "https://www.shelleypoint.co.za/golf/"}]
+      },
+      {
+        "id": "vasco-da-gama-monument",
+        "name": "Vasco da Gama Monument",
+        "description": "Marks the spot where Vasco da Gama made landfall in 1497 on his voyage to India. A short, quiet stop with lovely views over the fishing harbour.",
+        "image": "/images/monument.webp",
+        "time": "10 min drive",
+        "categories": ["history"],
+        "mapsQuery": "Vasco da Gama Monument, Stompneusbaai",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Vasco+da+Gama+Monument+St+Helena+Bay"
+      },
+      {
+        "id": "velddrif-estuary",
+        "name": "Berg River Estuary & Bokkomlaan",
+        "description": "Flamingos, pelicans and over 200 bird species on the estuary. Stroll Bokkomlaan's historic fishing sheds, now home to galleries and riverside cafés.",
+        "image": "/images/estuary.webp",
+        "time": "25 min drive",
+        "categories": ["wildlife", "history", "food & wine"],
+        "mapsQuery": "Bokkomlaan, Velddrif",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Bokkomlaan+Velddrif"
+      }
+    ],
+    "townOver": [
+      {
+        "id": "paternoster",
+        "name": "Paternoster Village",
+        "description": "One of the oldest fishing villages on the West Coast — whitewashed cottages, colourful boats on the beach and some of South Africa's best seafood.",
+        "image": "/images/paternoster.webp",
+        "time": "35 min drive",
+        "categories": ["beach", "food & wine", "family"],
+        "mapsQuery": "Paternoster, Western Cape",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Paternoster+South+Africa"
+      },
+      {
+        "id": "cape-columbine",
+        "name": "Cape Columbine Nature Reserve",
+        "description": "Granite boulders, wild coves and the last manned lighthouse in South Africa. Spectacular wildflowers in spring (Aug–Sep). Bring a picnic.",
+        "image": "/images/lighthouse.webp",
+        "time": "40 min drive",
+        "categories": ["outdoors", "wildlife", "active"],
+        "mapsQuery": "Cape Columbine Nature Reserve, Paternoster",
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1055305-d1204559-Reviews-Cape_Columbine_Nature_Reserve_Tietiesbaai-Paternoster_Saldanha_Bay_Municipality_.html"
+      }
+    ],
+    "dayTrip": [
+      {
+        "id": "west-coast-national-park",
+        "name": "West Coast National Park & Langebaan",
+        "description": "A turquoise lagoon, empty beaches and the famous Postberg flower section in spring. Great for kitesurfing, birding and long lunches.",
+        "image": "/images/lagoon.webp",
+        "time": "1 hr drive",
+        "categories": ["outdoors", "wildlife", "beach", "active"],
+        "mapsQuery": "West Coast National Park",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=West+Coast+National+Park"
+      },
+      {
+        "id": "darling",
+        "name": "Darling Brewery / Wine Route",
+        "description": "Charming little town with wine farms, a local brewery and quirky shops. Pair a tasting with a farm lunch for the perfect lazy day.",
+        "image": "/images/darling.webp",
+        "time": "1 hr 20 min drive",
+        "categories": ["food & wine", "history", "family"],
+        "mapsQuery": "Darling, Western Cape",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Darling+Western+Cape"
+      },
+      {
+        "id": "cederberg",
+        "name": "Cederberg Wilderness",
+        "description": "Dramatic sandstone formations, ancient rock art and rooibos country. Hike to the Wolfberg Cracks or swim in a mountain rock pool.",
+        "image": "/images/cederberg.webp",
+        "time": "2 hr drive",
+        "categories": ["outdoors", "active", "history"],
+        "mapsQuery": "Cederberg Wilderness Area",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Cederberg+Wilderness"
+      }
+    ]
+  },
+  "eatDrink": {
+    "groups": [
+      {
+        "type": "Restaurants",
+        "items": [
+          {
+            "id": "alegria",
+            "name": "Alegria (Portuguese restaurant)",
+            "description": "A family-run Portuguese restaurant with a warm welcome and authentic flavours. Top notch seafood and traditional dishes with a lovely view of the bay. Local beer on tap as well. Booking recommended in Summer.",
+            "area": "St Helena Bay",
+            "price": 3,
+            "hostPick": true,
+            "mapsQuery": "Alegria Restaurant, St Helena Bay",
+            "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g658748-d6915898-Reviews-Alegria_Restaurant-St_Helena_Bay_Saldanha_Bay_Municipality_Western_Cape.html"
+          },
+          {
+            "id": "die-see-ster",
+            "name": "Die See Ster",
+            "description": "An 'all-rounder' popular local spot for casual dining with a relaxed atmosphere. Known for their hearty portions and friendly service. You must take home some carrot cake cupcakes for later or purchase their cake if your second time.",
+            "area": "St Helena Bay",
+            "price": 2,
+            "hostPick": true,
+            "mapsQuery": "Die See Ster Kombuis, St Helena Bay",
+            "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g658748-d12692075-Reviews-Die_See_Ster_Kombuis-St_Helena_Bay_Saldanha_Bay_Municipality_Western_Cape.html"
+          },
+          {
+            "id": "harbour-view",
+            "name": "Harbour View",
+            "description": "This restaurant has a lovely ambience with very friendly staff. A fine dining experience for St Helena Bay, great wine selection and often has daily specials.",
+            "area": "St Helena Bay",
+            "price": 3,
+            "hostPick": false,
+            "mapsQuery": "Harbour View Restaurant, St Helena Bay",
+            "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g658748-d33239607-Reviews-Harbour_View_Restaurant_St_Helena_Bay-St_Helena_Bay_Saldanha_Bay_Municipality_We.html"
+          },
+          {
+            "id": "voorstrandt",
+            "name": "Voorstrandt Restaurant",
+            "description": "The iconic red tin shed on the beach in Paternoster. Fresh crayfish, linefish and your toes in the sand. Booking essential in Summer.",
+            "area": "Paternoster",
+            "price": 3,
+            "hostPick": false,
+            "mapsQuery": "Voorstrandt Restaurant, Paternoster",
+            "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g1055305-d1159417-Reviews-Voorstrandt-Paternoster_Saldanha_Bay_Municipality_Western_Cape.html"
+          },
+          {
+            "id": "wolfgat",
+            "name": "Wolfgat",
+            "description": "World-renowned tasting menu of West Coast ingredients in a 130-year-old cottage above the sea. Book well in advance, once in lifetime experience.",
+            "area": "Paternoster",
+            "price": 4,
+            "hostPick": true,
+            "mapsQuery": "Wolfgat, Paternoster",
+            "tripadvisor": "https://www.tripadvisor.com/Search?q=Wolfgat+Paternoster"
+          },
+          {
+            "id": "laaiplek-hotel",
+            "name": "Laaiplek Hotel Restaurant",
+            "description": "Classic seaside hotel dining at the mouth of the Berg River — great fish & chips and harbour views.",
+            "area": "Velddrif",
+            "price": 3,
+            "hostPick": false,
+            "mapsQuery": "Laaiplek Hotel, Velddrif",
+            "tripadvisor": "https://www.tripadvisor.com/Search?q=Laaiplek+Hotel+Velddrif"
+          }
+        ]
+      },
+      {
+        "type": "Cafés",
+        "items": [
+          {
+            "id": "golf-club-clubhouse",
+            "name": "Shelley Point Clubhouse",
+            "description": "Really affordable option for breakfasts, Wiesenhof coffee and great lunches, has a kiddies jungle gym as well.",
+            "area": "Shelley Point Estate",
+            "price": 1,
+            "hostPick": false,
+            "mapsQuery": "Shelley Point Golf Club, St Helena Bay"
+          },
+          {
+            "id": "juds",
+            "name": "Jud's (St Helena Bay Nursery & Coffee Shop)",
+            "description": "Linked to a nursery, this restaurant has a one of a kind atmosphere and one of a kind views, great spot for kids and lots of good food paired with a little giftshop.",
+            "area": "St Helena Bay",
+            "price": 2,
+            "hostPick": true,
+            "mapsQuery": "St Helena Bay Nursery & Coffee Shop"
+          },
+          {
+            "id": "whales-tale",
+            "name": "Whales' Tale",
+            "description": "Amazing view, good breakfasts! Has a kiddies jungle gym as well.",
+            "area": "St Helena Bay",
+            "price": 2,
+            "hostPick": false,
+            "mapsQuery": "Whale's Tail Restaurant, St Helena Bay"
+          },
+          {
+            "id": "niccis-coffee-club",
+            "name": "Nicci's Coffee Club",
+            "description": "Great Coffee, enough said",
+            "area": "St Helena Bay",
+            "price": 2,
+            "hostPick": false,
+            "mapsQuery": "Niccis Coffee Club, St Helena Bay"
+          },
+          {
+            "id": "columbine-cafe",
+            "name": "Columbine Co. - Riverside Café",
+            "description": "Amazing Coffee and homemade cakes, pastries, right on the estuary. Spot the flamingos while you sip. Not the best sit-and-view but the best coffee in town.",
+            "area": "Velddrif",
+            "price": 2,
+            "hostPick": true,
+            "mapsQuery": "Columbine Co. Veldrif"
+          },
+          {
+            "id": "the-daily",
+            "name": "The Daily - your working café",
+            "description": "If you are looking for a place to work, this is my favourite. Great working spaces with charging points, good coffee and food, a bit of a drive but worth it if you need to get some serious work done.",
+            "area": "Vredenburg",
+            "price": 3,
+            "hostPick": false,
+            "mapsQuery": "Weskus The Daily Coffee Cafe, Vredenburg"
+          },
+          {
+            "id": "poetsies",
+            "name": "Poetsies",
+            "description": "A charming local café with great daily specials and homemade treats. Perfect for a quick lunch or afternoon tea. The friendliest people in town.",
+            "area": "St Helena Bay",
+            "price": 1,
+            "hostPick": true,
+            "mapsQuery": "Poetsies Gifts & Deli, St Helena Bay"
+          },
+          {
+            "id": "die-winkel",
+            "name": "Die Winkel op Paternoster",
+            "description": "Part farm stall, part bric-a-brac shop, all charm. Famous for their roosterkoek and moerkoffie.",
+            "area": "Paternoster",
+            "price": 1,
+            "hostPick": false,
+            "mapsQuery": "Die Winkel op Paternoster",
+            "tripadvisor": "https://www.tripadvisor.com/Search?q=Die+Winkel+op+Paternoster"
+          }
+        ]
+      },
+      {
+        "type": "Bars",
+        "items": [
+          {
+            "id": "golf-club-bar",
+            "name": "Shelley Point Clubhouse",
+            "description": "Local is lekker - Really affordable option for breakfasts, lunches, drinks, great for sport events as well and general atmosphere, has a kiddies jungle gym as well.",
+            "area": "Shelley Point",
+            "price": 1,
+            "hostPick": true,
+            "mapsQuery": "Shelley Point Golf Club, St Helena Bay"
+          },
+          {
+            "id": "noordblinder",
+            "name": "Noordblinder Sports Bar",
+            "description": "Probably the best Sports Bar in town - the local waterhole or best place to for a last drink. Usually has live music on Sundays, known for sport events as well",
+            "area": "St Helena Bay",
+            "price": 2,
+            "hostPick": false,
+            "mapsQuery": "Noordblinder Sports Bar, St Helena Bay"
+          },
+          {
+            "id": "knor-varkie-st-helena-bay",
+            "name": "Knor Varkie (St Helena Bay)",
+            "description": "Some of our favourite meals are from here. Projector for Sports events, good music and friendly staff, daily specials and a great vibe.",
+            "area": "St Helena Bay",
+            "price": 2,
+            "hostPick": true,
+            "mapsQuery": "Knor Varkie St Helena Bay"
+          }
+
+        ]
+      },
+      {
+        "type": "Groceries",
+        "items": [
+          {
+            "id": "st-helena-spar",
+            "name": "Local Supermarket",
+            "description": "For everyday essentials, bread, milk and braai wood. Closest option for quick top-ups.",
+            "area": "St Helena Bay",
+            "price": 2,
+            "hostPick": true,
+            "mapsQuery": "Spar, St Helena Bay"
+          },
+          {
+            "id": "weskus-mall",
+            "name": "Weskus Mall",
+            "description": "Large supermarkets (Woolworths / Checkers / Foodlovers), liquor stores, a pharmacy and banks — a bit of a drive, but best for a big stock-up shop.",
+            "area": "Vredenburg",
+            "price": 2,
+            "hostPick": false,
+            "mapsQuery": "Weskus Mall, Vredenburg"
+          }
+        ]
+      }
+    ]
+  },
+  "houseGuide": [
+    {
+      "id": "kitchen",
+      "title": "Kitchen & appliances",
+      "body": "The coffee machine takes pods — a starter box is in the top drawer. The oven, hob and dishwasher instructions are in the white folder on the kitchen counter. Please rinse plates before loading the dishwasher; tablets are under the sink."
+    },
+    {
+      "id": "trash",
+      "title": "Trash & recycling",
+      "body": "General waste goes in the black wheelie bin; recycling (clean glass, tins, plastic and paper) in the clear bags. Bins go out on the verge on Tuesday evening for Wednesday collection. Please secure lids — the local seagulls are very clever."
+    },
+    {
+      "id": "climate",
+      "title": "Heating & air-conditioning",
+      "body": "Each bedroom has an aircon unit — remotes are on the bedside tables. Set to 22°C for comfort and please switch off when you go out or open the doors. On chilly winter nights the fireplace is ready to use; wood and firelighters are in the basket beside it."
+    },
+    {
+      "id": "tv",
+      "title": "TV & streaming",
+      "body": "The smart TV has Netflix and YouTube — please log in with your own accounts and log out before you leave. Use the grey remote for the TV and the small black one for the soundbar."
+    },
+    {
+      "id": "loadshedding",
+      "title": "Power outages (load-shedding)",
+      "body": "We have a small battery backup that keeps the Wi-Fi running during outages."
+    },
+    {
+      "id": "water",
+      "title": "Water & hot water",
+      "body": "Tap water is safe to drink. The West Coast is water-scarce, so please keep showers short. Hot water is geyser-heated — pipes run in the floor of the passage between the bedrooms if noticing a warm floor. If the hot water runs out, please wait 30–40 minutes for the geyser to reheat."
+    },
+    {
+      "id": "braai",
+      "title": "Braai (barbecue)",
+      "body": "The built in braai is yours to enjoy. Tongs and a grill brush are in the outdoor cupboard. Please make sure coals are completely out before you go to bed, and never leave a hot braai unattended. Additional Braai wood can be purchased from the local supermarket."
+    },
+    {
+      "id": "quiet-hours",
+      "title": "Quiet hours",
+      "body": "Quiet hours are 22:00 – 07:00. Sound carries over the water, so please keep music and voices low on the deck in the evenings out of respect for our neighbours."
+    },
+    {
+      "id": "house-rules",
+      "title": "House rules",
+      "body": "No smoking indoors (an ashtray is on the deck). No parties or events. Maximum occupancy is as booked. Pets by prior arrangement only. Please keep beach sand outside — there is an outdoor shower by the gate."
+    },
+    {
+      "id": "late-checkout",
+      "title": "Late check-out",
+      "body": "Check-out is at 10:00. Late check-out until 12:00 may be possible if we don't have guests arriving — please message us the day before and we'll do our best."
+    },
+    {
+      "id": "checkout-checklist",
+      "title": "Check-out checklist",
+      "body": "Load and start the dishwasher, take out the trash, switch off aircons and lights, close all windows, lock the doors and return the key to the lockbox. That's it — safe travels!"
+    },
+    {
+      "id": "what-is-that-smell",
+      "title": "What is that smell?",
+      "body": "Situated nearby, Lucky Star is a commercial fish processing plant. On some days, the wind carries a whiff of fishy aroma — it's not us, we promise!"
+    }
+  ],
+  "contacts": {
+    "emergency": [
+      { "label": "Emergency (mobile)", "description": "All emergencies from any mobile phone", "phone": "112" },
+      { "label": "Estate Security", "description": "Shelley Point Security", "phone": "+27 (0)22 742 1380" },
+      { "label": "Ambulance", "description": "Medical emergencies", "phone": "10177" },
+      { "label": "Sea Rescue (NSRI)", "description": "Emergencies on the water", "phone": "+27 (0)87 094 9774" }
+    ],
+    "local": [
+      {
+        "label": "Nearest Hospital",
+        "description": "Life West Coast Private hospital & 24hr emergency, Vredenburg",
+        "phone": "+27227191030",
+        "mapsQuery": "Life West Coast Private Hospital, Vredenburg"
+      },
+      {
+        "label": "Pharmacy",
+        "description": "De Agterbaai, St Helena Bay (Opposite Lucky Star)",
+        "phone": "+27872656066",
+        "mapsQuery": "Pharmacy at SPAR De Agterbaai, St Helena Bay"
+      },
+      {
+        "label": "Doctor / GP",
+        "description": "Weskus Family med St Helenabaai",
+        "phone": "+27227361448",
+        "mapsQuery": "Weskus Fammed St Helenabaai, St Helena Bay"
+      },
+      {
+        "label": "Police Station (non-emergency)",
+        "description": "St Helena Bay SAPS",
+        "phone": "+27824438384",
+        "mapsQuery": "St Helena Bay Police Station"
+      }
+    ]
+  },
+  "suggestions": {
+    "formspreeEndpoint": "https://formspree.io/f/mzeejnav",
+    "intro": "Loved something? Missed something? We read every note and use your ideas to make Casa Corsica even better for the next guest."
+  },
+  "art": {
+    "artist": "DGrout",
+    "intro": "Every original artwork in Casa Corsica is by DGrout, a West Coast artist inspired by the light, textures and colours of the bay. If a piece speaks to you, we'd love to put you in touch.",
+    "pieces": [
+      {
+        "id": "tidal",
+        "title": "Tidal Memory",
+        "medium": "Mixed media on canvas",
+        "size": "120 × 90 cm",
+        "location": "Living room",
+        "image": "/images/art-tidal.webp",
+        "available": true
+      },
+      {
+        "id": "fynbos",
+        "title": "Fynbos Study No. 3",
+        "medium": "Acrylic on canvas",
+        "size": "80 × 100 cm",
+        "location": "Dining area",
+        "image": "/images/art-fynbos.webp",
+        "available": true
+      },
+      {
+        "id": "boats",
+        "title": "Three Boats, Stompneus",
+        "medium": "Oil on board, oak frame",
+        "size": "60 × 45 cm",
+        "location": "Main bedroom",
+        "image": "/images/art-boats.webp",
+        "available": false
+      },
+      {
+        "id": "horizon",
+        "title": "Black Horizon",
+        "medium": "Acrylic & palette knife on canvas",
+        "size": "150 × 70 cm",
+        "location": "Guest bedroom",
+        "image": "/images/art-horizon.webp",
+        "available": true
+      }
+    ]
+  }
+}
