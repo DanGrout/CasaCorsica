@@ -7,7 +7,7 @@
     "heroImage": "/images/hero.webp"
   },
   "welcome": {
-    "greeting": "Welkom and welcome to Casa Corsica! We are so happy you chose our little piece of the West Coast. Kick off your shoes, open the doors to the sea air and make yourself at home. Everything you need for a slow, salty, sun-filled stay is in this guide — and if anything is missing, just give us a shout.",
+    "greeting": "Welkom and welcome to Casa Corsica! We are so happy you chose our little piece of the West Coast. Kick off your shoes, open the doors to the sea air and make yourself at home. Everything you need to know for a slow, salty, sun-filled stay is in this guide — and if anything is missing, just give us a shout.",
     "checkInNotes": "Self check-in from 15:00. The key lockbox is to the left of the front door — your code is sent the morning of arrival.",
     "wifi": {
       "network": "ShellWeConnect"
@@ -52,11 +52,21 @@
         "name": "Shelley Point Golf Course",
         "description": "A scenic 9-hole links course overlooking the ocean. Visitors welcome — book a tee time at the clubhouse or simply enjoy a sundowner on the terrace.",
         "image": "/images/golf.webp",
-        "time": "5 min drive",
+        "time": "5 min drive | 10 min walk",
         "categories": ["active", "outdoors"],
         "mapsQuery": "Shelley Point Golf Club, St Helena Bay",
-        "tripadvisor": "https://www.tripadvisor.com/Search?q=Shelley+Point+Golf",
-        "additionalLinks": [{"title": "Golf", "url": "https://www.shelleypoint.co.za/golf/"}]
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g658748-d2493124-Reviews-Shelley_Point_Country_Club_Golf_Course-St_Helena_Bay_Saldanha_Bay_Municipality_We.html",
+        "additionalLinks": [{"title": "Golf", "url": "https://shelleypointcountryclub.co.za/"}]
+      },
+      {
+        "id": "shelley-point-surfing",
+        "name": "Surfing at Shelley Point",
+        "description": "Catch waves at the sheltered, crescent-shaped beach right on your doorstep. The calm bay offers excellent conditions for both beginners and experienced surfers. Bring your own board.",
+        "image": "/images/surfing.webp",
+        "time": "5 min walk",
+        "categories": ["beach", "outdoors", "active"],
+        "mapsQuery": "Shelley Point Beach, St Helena Bay",
+        "additionalLinks": [{"title": "Surfing Spot", "url": "https://maps.app.goo.gl/pcHj3CgEMLoy4xYdA"}, {"title":"Surfing Conditions", "url": "https://surf-reports.com/South-Africa/Western-Cape/West-Coast-District-Municipality/Stompneus/"}, {"title": "Parking Area", "url": "https://maps.app.goo.gl/iD9u6zgqnAGXNhBi6"}]
       },
       {
         "id": "vasco-da-gama-monument",
@@ -67,38 +77,89 @@
         "categories": ["history"],
         "mapsQuery": "Vasco da Gama Monument, Stompneusbaai",
         "tripadvisor": "https://www.tripadvisor.com/Search?q=Vasco+da+Gama+Monument+St+Helena+Bay"
+      }
+    ],
+    "townOver": [
+      {
+        "id": "paternoster",
+        "name": "Paternoster Village & Waterfront",
+        "description": "One of the oldest fishing villages on the West Coast — whitewashed cottages, colourful boats on the beach and some of South Africa's best seafood, wine and dining. To the men, checkout the Toy museum at the Waterfront.",
+        "image": "/images/paternoster.webp",
+        "time": "30 min drive",
+        "categories": ["beach", "food & wine", "family", "history", "outdoors"],
+        "mapsQuery": "Paternoster, Western Cape",
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Paternoster+South+Africa",
+        "additionalLinks": [{"title": "Paternoster Waterfront", "url": "https://maps.app.goo.gl/BTSAWC1hG5khktPE9"}, {"title": "The Robdunn Collection Toy Museum", "url": "https://maps.app.goo.gl/yVszLLy7tYxndP2s5"}]
       },
       {
         "id": "velddrif-estuary",
         "name": "Berg River Estuary & Bokkomlaan",
         "description": "Flamingos, pelicans and over 200 bird species on the estuary. Stroll Bokkomlaan's historic fishing sheds, now home to galleries and riverside cafés.",
         "image": "/images/estuary.webp",
-        "time": "25 min drive",
-        "categories": ["wildlife", "history", "food & wine"],
+        "time": "30 min drive",
+        "categories": ["wildlife", "history", "food & wine", "outdoors"],
         "mapsQuery": "Bokkomlaan, Velddrif",
         "tripadvisor": "https://www.tripadvisor.com/Search?q=Bokkomlaan+Velddrif"
-      }
-    ],
-    "townOver": [
+      },
       {
-        "id": "paternoster",
-        "name": "Paternoster Village",
-        "description": "One of the oldest fishing villages on the West Coast — whitewashed cottages, colourful boats on the beach and some of South Africa's best seafood.",
-        "image": "/images/paternoster.webp",
-        "time": "35 min drive",
-        "categories": ["beach", "food & wine", "family"],
-        "mapsQuery": "Paternoster, Western Cape",
-        "tripadvisor": "https://www.tripadvisor.com/Search?q=Paternoster+South+Africa"
+        "id": "paternoster-horse-rides",
+        "name": "Drikus Horse Trails Paternoster",
+        "description": "A must! A scenic horseback ride along the beach and through the dunes and Private Nature reserve near Paternoster. Perfect for families and horse lovers looking for a unique way to explore the beautiful West Coast. Avoid windy days. Booking essential.",
+        "image": "/images/horse-rides.webp",
+        "time": "20 min drive",
+        "categories": ["family", "outdoors", "active", "wildlife"],
+        "mapsQuery": "Drikus Horse Trails Paternoster",
+        "additionalLinks": [{"title": "Drikus Horse Trails", "url": "https://www.paternosterhorsetrails.co.za/"}]
       },
       {
         "id": "cape-columbine",
         "name": "Cape Columbine Nature Reserve",
-        "description": "Granite boulders, wild coves and the last manned lighthouse in South Africa. Spectacular wildflowers in spring (Aug–Sep). Bring a picnic.",
-        "image": "/images/lighthouse.webp",
+        "description": "Granite boulders, wild coves and the last manned lighthouse in South Africa. Spectacular wildflowers in spring (Aug–Sep). Bring a picnic. Cape Columbine Nature Reserve Tietiesbaai is a 263-hectare coastal reserve on the West Coast near the fishing village of Paternoster in the Western Cape, South Africa, protecting the rocky headland of Cape Columbine and the small inlet of Tieties Bay. The reserve is home to the Cape Columbine Lighthouse, commissioned in 1936 and noted as the last manually controlled lighthouse built on the South African coast, its light standing about 80 metres above sea level and visible for roughly 50 kilometres. Rugged shoreline, fynbos slopes and tidal rock pools make the reserve popular for hiking, coastal birdwatching and seaside camping, and it is managed by the Saldanha Bay Municipality about 5 kilometres from Paternoster.",
+        "image": "/images/cape-columbine.webp",
         "time": "40 min drive",
         "categories": ["outdoors", "wildlife", "active"],
         "mapsQuery": "Cape Columbine Nature Reserve, Paternoster",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1055305-d1204559-Reviews-Cape_Columbine_Nature_Reserve_Tietiesbaai-Paternoster_Saldanha_Bay_Municipality_.html"
+        "tripadvisor": "https://www.tripadvisor.co.za/Attraction_Review-g1055305-d1204559-Reviews-Cape_Columbine_Nature_Reserve_Tietiesbaai-Paternoster_Saldanha_Bay_Municipality_.html"
+      },
+      {
+        "id": "fine-dining-paternoster",
+        "name": "Fine Dining in Paternoster",
+        "description": "World Class restaurants in Paternoster, including Wolfgat, Leeto and . Booking essential.",
+        "image": "/images/leeto.webp",
+        "time": "40 min drive",
+        "categories": ["outdoors", "wildlife", "active"],
+        "mapsQuery": "Fine Dining Restaurants, Paternoster",
+        "additionalLinks": [{"title": "Wolfgat", "url": "https://wolfgat.co.za/"}, {"title": "Leeto", "url": "https://www.leetorestaurant.com/"}]
+      },
+      {
+        "id": "daai-plekkie",
+        "name": "Daai Plekkie in die Weskus (Restaurant & Jacobs Bay)",
+        "description": "A stunning gem on the West Coast. A restaurant with a view and a small town to explore.",
+        "image": "/images/daai-plekkie.webp",
+        "time": "40 min drive",
+        "categories": ["beach", "outdoors", "family", "food & wine"],
+        "mapsQuery": "Daai Plekkie in die Weskus, Jacobs Bay, Western Cape",
+        "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g3961033-d34280404-Reviews-Daai_Plekkie_in_die_Weskus-Jacobs_Bay_Saldanha_Bay_Municipality_Western_Cape.html"
+      },
+      {
+        "id": "tietiesbaai",
+        "name": "Tietiesbaai",
+        "description": "A literal translation of tieties from Afrikaans ('tieties' or 'boobies') points to two large, smooth, dome-like round boulders on the coastline that resemble a pair of breasts. A popular picnic spot with a small tidal pool for kids to paddle in.",
+        "image": "/images/tietiesbaai.webp",
+        "time": "40 min drive",
+        "categories": ["beach", "outdoors", "family", "active"],
+        "mapsQuery": "Tietiesbaai, Paternoster, Western Cape",
+        "tripadvisor": "https://www.tripadvisor.co.za/Attraction_Review-g1055305-d1204559-Reviews-Cape_Columbine_Nature_Reserve_Tietiesbaai-Paternoster_Saldanha_Bay_Municipality_.html"
+      },
+      {
+        "id": "charlies-brewhouse",
+        "name": "Charlie's Brewhouse",
+        "description": "A local microbrewery offering a selection of craft beers and a relaxed atmosphere on the canals of Port Owen in Veldrif. A great spot to sample regional brews and enjoy a casual drink.",
+        "image": "/images/charlies-brewhouse.webp",
+        "time": "40 min drive",
+        "categories": ["food & wine", "family"],
+        "mapsQuery": "Charlie's Brewhouse, Veldrif, Western Cape",
+        "additionalLinks": [{"title": "Charlie's Brewhouse", "url": "https://charliesbrewhouse.co.za/"}]
       }
     ],
     "dayTrip": [
@@ -211,7 +272,7 @@
             "area": "Shelley Point Estate",
             "price": 1,
             "hostPick": false,
-            "mapsQuery": "Shelley Point Golf Club, St Helena Bay"
+            "mapsQuery": "Shelley Point Community Centre and Golf Club, St Helena Bay"
           },
           {
             "id": "juds",
@@ -268,14 +329,14 @@
             "mapsQuery": "Poetsies Gifts & Deli, St Helena Bay"
           },
           {
-            "id": "die-winkel",
-            "name": "Die Winkel op Paternoster",
-            "description": "Part farm stall, part bric-a-brac shop, all charm. Famous for their roosterkoek and moerkoffie.",
+            "id": "cathys-kitchen-paternoster",
+            "name": "Cathy's Kitchen Paternoster",
+            "description": "Cathy's Kitchen is an initiative of the Paternoster Project NPC. Cathy's Kitchen serves breakfast & light meals. Local & sustainable.",
             "area": "Paternoster",
-            "price": 1,
+            "price": 2,
             "hostPick": false,
-            "mapsQuery": "Die Winkel op Paternoster",
-            "tripadvisor": "https://www.tripadvisor.com/Search?q=Die+Winkel+op+Paternoster"
+            "mapsQuery": "Cathy's Kitchen Paternoster",
+            "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g1055305-d23001125-Reviews-Cathy_s_Kitchen_Paternoster-Paternoster_Saldanha_Bay_Municipality_Western_Cape.html"
           }
         ]
       },
