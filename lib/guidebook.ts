@@ -1,5 +1,34 @@
 import data from '@/data/guidebook.json'
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
+function withBasePath(url: string | undefined) {
+  if (!url) return url
+  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('data:')) return url
+  if (url.startsWith('/')) return `${basePath}${url}`
+  return url
+}
+
+function normalizeAssetPaths<T>(value: T): T {
+  if (Array.isArray(value)) {
+    return value.map((item) => normalizeAssetPaths(item)) as T
+  }
+
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, nestedValue]) => {
+        if (typeof nestedValue === 'string' && (key === 'image' || key === 'heroImage' || key === 'hostPhoto' || nestedValue.startsWith('/'))) {
+          return [key, withBasePath(nestedValue)]
+        }
+
+        return [key, normalizeAssetPaths(nestedValue)]
+      }),
+    ) as T
+  }
+
+  return value
+}
+
 export type AdditionalLink = {
   title: string
   url: string
@@ -81,7 +110,7 @@ export type Guidebook = {
   art: { artist: string; intro: string; pieces: ArtPiece[] }
 }
 
-export const guidebook = data as Guidebook
+export const guidebook = normalizeAssetPaths(data as Guidebook) as Guidebook
 
 export function mapsUrl(query: string) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`

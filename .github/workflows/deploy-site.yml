@@ -37,7 +37,7 @@ jobs:
 
       - name: Build static site
         env:
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+          NEXT_PUBLIC_BASE_PATH: ${{ contains(github.event.repository.name, '.github.io') && '' || format('/{0}', github.event.repository.name) }}
         run: pnpm build
 
       - name: Add Pages marker

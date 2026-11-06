@@ -1,5 +1,5 @@
-:HL["/CasaCorsica/_next/static/chunks/2tzqzegdi7aqf.css","style"]
+:HL["/CasaCorsica/_next/static/chunks/01hg_3s7pk_42.css","style"]
 :HL["/CasaCorsica/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/CasaCorsica/_next/static/media/edb99fec956915f8-s.p.32sris142tqlb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"pGdIk9E154QCJ2RGVlLjF","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"JHWEMT2y0ko3YO7HcV-sx","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
