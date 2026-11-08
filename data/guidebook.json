@@ -29,54 +29,60 @@
         "additionalLinks": [{"title": "Walking Path", "url": "https://maps.app.goo.gl/B54D8DwKn5pTAmgz8"},{"title": "Parking Area", "url": "https://maps.app.goo.gl/HUESwi4vWKrLNz5R7"}]
       },
       {
-        "id": "shelley-point-beach",
-        "name": "Shelley Point Beach Walk",
-        "description": "A sheltered, crescent-shaped beach right on your doorstep. Perfect for sunrise walks, beachcombing for shells and a safe paddle in the calm bay.",
-        "image": "/images/beach-walk.webp",
-        "time": "5 min walk",
+        "id": "shelley-point-west-beach",
+        "name": "Shelley Point (West) Beach Walk",
+        "description": "A sheltered, crescent-shaped beach right on your doorstep. Perfect for sunrise walks, beachcombing for shells and a safe paddle in the calm bay. Whilst facing the ocean from the parking area, turn left and head along the beach - heading south.",
+        "image": "/images/surfing.webp",
+        "time": "1 hour walk",
         "categories": ["beach", "outdoors", "family"],
-        "mapsQuery": "Shelley Point Beach, St Helena Bay",
-        "tripadvisor": "https://www.tripadvisor.com/Search?q=Shelley+Point+St+Helena+Bay"
+        "additionalLinks": [{"title": "All Trails route", "url": "https://www.alltrails.com/trail/south-africa/western-cape/shelley-point-britannia-bay"}, {"title": "Parking Area", "url": "https://maps.app.goo.gl/iD9u6zgqnAGXNhBi6"}]
+      },
+      {
+        "id": "shelley-point-north-beach",
+        "name": "Shelley Point (North) Beach Walk",
+        "description": "A rugged walk next to the hills of mussels. Perfect for sunrise walks, beachcombing for shells and spotting wildlife. Whilst facing the ocean from the parking area, turn right and head along a path to the north.",
+        "image": "/images/walk.webp",
+        "time": "1 hour walk",
+        "categories": ["beach", "outdoors", "family", "wildlife"],
+        "additionalLinks": [{"title": "All Trails route", "url": "https://www.alltrails.com/trail/south-africa/western-cape/shelley-point-britannia-bay"}, {"title": "Parking Area", "url": "https://maps.app.goo.gl/iD9u6zgqnAGXNhBi6"}]
       },
       {
         "id": "whale-watching",
         "name": "Whale & Dolphin Spotting",
-        "description": "From June to November, southern right and humpback whales visit the bay. Grab the binoculars from the hall cupboard and head to the point at high tide.",
+        "description": "From June to November, southern right and humpback whales visit the bay. Grab the binoculars from the hall cupboard and head to the point at high tide. Whales and Dolphins are often spotted from the beach and the lighthouse. The whales are usually closer to the point, while dolphins are often seen in the bay.",
         "image": "/images/whales.webp",
         "time": "10 min walk",
         "categories": ["wildlife", "outdoors", "family"],
-        "mapsQuery": "Shelley Point, St Helena Bay"
+        "additionalLinks": [{"title": "Northen Spot", "url": "https://maps.app.goo.gl/5FAPkTyzJLLaADgt5"}, {"title": "Western Spot (bench)", "url": "https://maps.app.goo.gl/bbnhTJHWAUFjVEoy5"}]
       },
       {
         "id": "shelley-point-golf",
-        "name": "Shelley Point Golf Course",
-        "description": "A scenic 9-hole links course overlooking the ocean. Visitors welcome — book a tee time at the clubhouse or simply enjoy a sundowner on the terrace.",
+        "name": "Shelley Point Golf Course | Tennis | Lawn Bowls",
+        "description": "A scenic 9-hole links course overlooking the ocean. Visitors welcome — book a tee time at the clubhouse or simply enjoy a sundowner on the terrace. Also available: tennis courts and lawn bowls. Booking required.",
         "image": "/images/golf.webp",
-        "time": "5 min drive | 10 min walk",
+        "time": "5 min drive",
         "categories": ["active", "outdoors"],
         "mapsQuery": "Shelley Point Golf Club, St Helena Bay",
         "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g658748-d2493124-Reviews-Shelley_Point_Country_Club_Golf_Course-St_Helena_Bay_Saldanha_Bay_Municipality_We.html",
-        "additionalLinks": [{"title": "Golf", "url": "https://shelleypointcountryclub.co.za/"}]
+        "additionalLinks": [{"title": "Call Club", "url": "tel:+27227421037"}, {"title": "Golf", "url": "https://shelleypointcountryclub.co.za/"}, {"title": "Tennis", "url": "https://shelleypointcountryclub.co.za/tennis/"}, {"title": "Lawn Bowls", "url": "https://shelleypointcountryclub.co.za/bowling/"}]
       },
       {
         "id": "shelley-point-surfing",
         "name": "Surfing at Shelley Point",
-        "description": "Catch waves at the sheltered, crescent-shaped beach right on your doorstep. The calm bay offers excellent conditions for both beginners and experienced surfers. Bring your own board.",
+        "description": "Called 'Heaven', catch waves at the sheltered, crescent-shaped beach right on your doorstep (in the estate). The calm bay offers excellent conditions for both beginners and experienced surfers. Bring your own board.",
         "image": "/images/surfing.webp",
-        "time": "5 min walk",
+        "time": "5 min drive",
         "categories": ["beach", "outdoors", "active"],
-        "mapsQuery": "Shelley Point Beach, St Helena Bay",
-        "additionalLinks": [{"title": "Surfing Spot", "url": "https://maps.app.goo.gl/pcHj3CgEMLoy4xYdA"}, {"title":"Surfing Conditions", "url": "https://surf-reports.com/South-Africa/Western-Cape/West-Coast-District-Municipality/Stompneus/"}, {"title": "Parking Area", "url": "https://maps.app.goo.gl/iD9u6zgqnAGXNhBi6"}]
+        "additionalLinks": [{"title": "Surfing Spot", "url": "https://maps.app.goo.gl/pcHj3CgEMLoy4xYdA"}, {"title":"Surfing Conditions", "url": "https://surf-reports.com/South-Africa/Western-Cape/West-Coast-District-Municipality/Stompneus/"}, {"title": "Parking Area", "url": "https://maps.app.goo.gl/iD9u6zgqnAGXNhBi6"}, {"title": "History and Map", "url": "https://www.mondo.surf/surf-spot/heaven/guide/12275"}]
       },
       {
-        "id": "vasco-da-gama-monument",
-        "name": "Vasco da Gama Monument",
-        "description": "Marks the spot where Vasco da Gama made landfall in 1497 on his voyage to India. A short, quiet stop with lovely views over the fishing harbour.",
-        "image": "/images/monument.webp",
+        "id": "the-local-market",
+        "name": "Flagship Weekend market",
+        "description": "Weekends, the market (informal) is open on most weekends just outside the estate. A great spot to pick up great coffee and pancakes, local crafts.",
+        "image": "/images/market.webp",
         "time": "10 min drive",
-        "categories": ["history"],
-        "mapsQuery": "Vasco da Gama Monument, Stompneusbaai",
-        "tripadvisor": "https://www.tripadvisor.com/Search?q=Vasco+da+Gama+Monument+St+Helena+Bay"
+        "categories": ["outdoors", "family", "food & wine", "beach"],
+        "additionalLinks": [{"title": "Market Location", "url": "https://maps.app.goo.gl/JhBMn2BTwwWPzcgJ6"}]
       }
     ],
     "townOver": [

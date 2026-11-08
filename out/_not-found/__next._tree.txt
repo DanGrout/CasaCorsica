@@ -1,4 +1,4 @@
-:HL["/CasaCorsica/_next/static/chunks/01hg_3s7pk_42.css","style"]
+:HL["/_next/static/chunks/01hg_3s7pk_42.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"JHWEMT2y0ko3YO7HcV-sx","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"_JWnKflJAyT3VRNUeHmgi","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

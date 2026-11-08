@@ -37,7 +37,10 @@ jobs:
 
       - name: Build static site
         env:
-          NEXT_PUBLIC_BASE_PATH: ${{ contains(github.event.repository.name, '.github.io') && '' || format('/{0}', github.event.repository.name) }}
+          # Leave empty for custom-domain deployments like https://casacorsica.co.za.
+          # For a repo-based GitHub Pages site, set a repository variable named
+          # NEXT_PUBLIC_BASE_PATH to the subpath, e.g. /CasaCorsica.
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH || '' }}
         run: pnpm build
 
       - name: Add Pages marker
