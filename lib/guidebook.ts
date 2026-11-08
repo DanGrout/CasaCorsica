@@ -89,6 +89,8 @@ export type Guidebook = {
   }
   welcome: {
     greeting: string
+    checkIn: string
+    checkOut: string
     checkInNotes: string
     wifi: { network: string; password: string }
     parking: string

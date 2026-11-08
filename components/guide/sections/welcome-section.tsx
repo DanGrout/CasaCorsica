@@ -58,8 +58,8 @@ export function WelcomeSection({ onNavigate }: { onNavigate: (section: Section) 
       </section>
 
       <section className="grid grid-cols-2 gap-3" aria-label="Check-in and check-out">
-        {/*<TimeCard icon={LogIn} label="Check-in" time={welcome.checkIn} note="from" />
-        <TimeCard icon={LogOut} label="Check-out" time={welcome.checkOut} note="by" />*/}
+        <TimeCard icon={LogIn} label="Check-in" time={welcome.checkIn} note="from" />
+        <TimeCard icon={LogOut} label="Check-out" time={welcome.checkOut} note="by" />
         <p className="col-span-2 flex gap-3 rounded-2xl bg-secondary p-4 text-sm leading-relaxed text-secondary-foreground">
           <KeyRound className="mt-0.5 size-5 shrink-0 text-oak" aria-hidden />
           {welcome.checkInNotes}

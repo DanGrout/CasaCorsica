@@ -8,7 +8,9 @@
   },
   "welcome": {
     "greeting": "Welkom and welcome to Casa Corsica! We are so happy you chose our little piece of the West Coast. Kick off your shoes, open the doors to the sea air and make yourself at home. Everything you need to know for a slow, salty, sun-filled stay is in this guide — and if anything is missing, just give us a shout.",
-    "checkInNotes": "Self check-in from 15:00. The key lockbox is to the left of the front door — your code is sent the morning of arrival.",
+    "checkIn": "15:00",
+    "checkOut": "10:00",
+    "checkInNotes": "Unless organised prior to check in, self check-in from 15:00. The key lockbox is to the left of the front door — your code is sent the morning of arrival.",
     "wifi": {
       "network": "ShellWeConnect"
     },
