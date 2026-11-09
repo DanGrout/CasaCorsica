@@ -135,7 +135,7 @@
         "description": "World Class restaurants in Paternoster, including Wolfgat, Leeto and . Booking essential.",
         "image": "/images/leeto.webp",
         "time": "40 min drive",
-        "categories": ["outdoors", "wildlife", "active"],
+        "categories": ["food & wine", "beach"],
         "mapsQuery": "Fine Dining Restaurants, Paternoster",
         "additionalLinks": [{"title": "Wolfgat", "url": "https://wolfgat.co.za/"}, {"title": "Leeto", "url": "https://www.leetorestaurant.com/"}]
       },
@@ -177,7 +177,7 @@
         "description": "A turquoise lagoon, empty beaches and the famous Postberg flower section in spring. Great for kitesurfing, birding and long lunches.",
         "image": "/images/lagoon.webp",
         "time": "1 hr drive",
-        "categories": ["outdoors", "wildlife", "beach", "active"],
+        "categories": ["outdoors", "wildlife", "family", "active"],
         "mapsQuery": "West Coast National Park",
         "tripadvisor": "https://www.tripadvisor.com/Search?q=West+Coast+National+Park"
       },
@@ -187,9 +187,30 @@
         "description": "Charming little town with wine farms, a local brewery and quirky shops. Pair a tasting with a farm lunch for the perfect lazy day.",
         "image": "/images/darling.webp",
         "time": "1 hr 20 min drive",
-        "categories": ["food & wine", "history", "family"],
+        "categories": ["food & wine", "family"],
         "mapsQuery": "Darling, Western Cape",
-        "tripadvisor": "https://www.tripadvisor.com/Search?q=Darling+Western+Cape"
+        "tripadvisor": "https://www.tripadvisor.com/Search?q=Darling+Western+Cape",
+        "additionalLinks": [{"title": "Darling Brew Tasteroom", "url": "https://maps.app.goo.gl/CqddELF8Hcc5QGqE8"}, {"title": "Darling Wine Route", "url": "https://visitwinelands.co.za/darling-wine-route/"}]
+      },
+      {
+        "id": "elandsbay",
+        "name": "Elands Bay & Birding",
+        "description": "Elands Bay is a quiet coastal surf and nature village on the Western Cape's West Coast. Surfing: Tackle the renowned, world-class left-hand surf break off Baboon Point / Elands Bay Beach. Elands Bay Cave & Baboon Point: Walk up the cliffs above the harbour to explore ancient San and Khoe rock art, handprints, and archaeological layers dating back thousands of years while enjoying panoramic ocean views. Bird Watching & Kayaking at Verlorenvlei: Visit the Verlorenvlei estuary, a vital RAMSAR wetland and birding hotspot that hosts a vast array of waterbirds and species.",
+        "image": "/images/elandsbay.webp",
+        "time": "1 hr 20  drive",
+        "categories": ["outdoors", "active", "history", "wildlife"],
+        "mapsQuery": "Elands Bay, Western Cape",
+        "additionalLinks": [{"title": "Surfing Spot", "url": "https://maps.app.goo.gl/M8KFoRyoCq2Wwe989"}, {"title": "Surf guide / conditions", "url": "https://www.mondo.surf/surf-spot/elands-bay/guide/12268"}, {"title": "Elands Bay Cave & Baboon Point", "url": "https://maps.app.goo.gl/FNWBNxLsv6jQTzoVA"}, {"title": "Elands Bay Birding Vlei", "url": "https://maps.app.goo.gl/bwgeZPRHrUnXdTyQ7"}, {"title": "Elands Bay Museum", "url": "https://maps.app.goo.gl/VaypnFaEFgCcWQpPA"}]
+      },
+      {
+        "id": "lambertsbay",
+        "name": "Lamberts Bay & Birding",
+        "description": "Lambert's Bay is a charming fishing village on the South African West Coast, known for its seafood, wildlife, and relaxed coastal atmosphere. Muisbosskerm Open Air Restaurant: a legendary, world-renowned West Coast seafood buffet located right on the beach just outside Lambert's Bay. Widely recognized as the pioneer of the open-air beach 'braai' (barbecue) dining concept. Bird Island Nature Reserve: A 3-hectare island connected to the mainland by a breakwater where you can walk among thousands of breeding Cape gannets, Cape cormorants, and Cape fur seals.",
+        "image": "/images/lambertsbay.webp",
+        "time": "2 hr drive",
+        "categories": ["outdoors", "food & wine", "history", "wildlife", "family", "active"],
+        "mapsQuery": "Lamberts Bay, Western Cape",
+        "additionalLinks": [{"title": "Muisbosskerm Open Air Restaurant", "url": "https://maps.app.goo.gl/mXCUKYYSVXYpZLGV8"}, {"title": "Bird Island Nature Reserve", "url": "https://maps.app.goo.gl/EMrEB15zzGuC8EJfA"}]
       },
       {
         "id": "cederberg",
@@ -197,7 +218,7 @@
         "description": "Dramatic sandstone formations, ancient rock art and rooibos country. Hike to the Wolfberg Cracks or swim in a mountain rock pool.",
         "image": "/images/cederberg.webp",
         "time": "2 hr drive",
-        "categories": ["outdoors", "active", "history"],
+        "categories": ["outdoors", "active", "history", "wildlife"],
         "mapsQuery": "Cederberg Wilderness Area",
         "tripadvisor": "https://www.tripadvisor.com/Search?q=Cederberg+Wilderness"
       }
@@ -410,22 +431,22 @@
     {
       "id": "kitchen",
       "title": "Kitchen & appliances",
-      "body": "The coffee machine takes pods — a starter box is in the top drawer. The oven, hob and dishwasher instructions are in the white folder on the kitchen counter. Please rinse plates before loading the dishwasher; tablets are under the sink."
+      "body": "The coffee machine takes Nespresso compatible pods. The oven, hob and dishwasher instructions are in the bottom drawer in the kitchen. Please rinse plates before loading the dishwasher please note that a limited number of dishwasher tablets are provided."
     },
     {
       "id": "trash",
       "title": "Trash & recycling",
-      "body": "General waste goes in the black wheelie bin; recycling (clean glass, tins, plastic and paper) in the clear bags. Bins go out on the verge on Tuesday evening for Wednesday collection. Please secure lids — the local seagulls are very clever."
+      "body": "General waste goes in the black bin. Dispose of full / smelly bags in the green Wheelee bin outside. Bins go out on the verge on Wednesday evening for Thursday morning collection."
     },
     {
       "id": "climate",
       "title": "Heating & air-conditioning",
-      "body": "Each bedroom has an aircon unit — remotes are on the bedside tables. Set to 22°C for comfort and please switch off when you go out or open the doors. On chilly winter nights the fireplace is ready to use; wood and firelighters are in the basket beside it."
+      "body": "The main bedroom has an aircon unit — remote is on or in the bedside table. Set to 22°C for comfort and please switch off when you go out or open the doors. Fan and heater can be found in the down stairs bedroom cupboard."
     },
     {
       "id": "tv",
       "title": "TV & streaming",
-      "body": "The smart TV has Netflix and YouTube — please log in with your own accounts and log out before you leave. Use the grey remote for the TV and the small black one for the soundbar."
+      "body": "The smart TV has Netflix and DSTV app — if you do log in with your own accounts, remember to log out before you leave. Use the grey remote for the TV and the small black one for the soundbar. Please let us know if they have been logged out and need to sign back in."
     },
     {
       "id": "loadshedding",
@@ -440,17 +461,17 @@
     {
       "id": "braai",
       "title": "Braai (barbecue)",
-      "body": "The built in braai is yours to enjoy. Tongs and a grill brush are in the outdoor cupboard. Please make sure coals are completely out before you go to bed, and never leave a hot braai unattended. Additional Braai wood can be purchased from the local supermarket."
+      "body": "The built in braai is yours to enjoy. Tongs and a grill brush are in the cupboard to the right of the braai. Please make sure coals are completely out before you go to bed, and never leave a hot braai unattended. Please do not dispose of hot ash in the bin. Additional Braai wood can be purchased from the local supermarket."
     },
     {
       "id": "quiet-hours",
       "title": "Quiet hours",
-      "body": "Quiet hours are 22:00 – 07:00. Sound carries over the water, so please keep music and voices low on the deck in the evenings out of respect for our neighbours."
+      "body": "Quiet hours are 22:00 – 07:00. Please keep music and voices low after 22:00 out of respect for our neighbours."
     },
     {
       "id": "house-rules",
       "title": "House rules",
-      "body": "No smoking indoors (an ashtray is on the deck). No parties or events. Maximum occupancy is as booked. Pets by prior arrangement only. Please keep beach sand outside — there is an outdoor shower by the gate."
+      "body": "No smoking or vaping indoors. No parties or events. Maximum occupancy is as booked. Pets by prior arrangement only. Please keep beach sand outside — there is an outdoor tap in the garden."
     },
     {
       "id": "late-checkout",
@@ -503,12 +524,12 @@
     ]
   },
   "suggestions": {
-    "formspreeEndpoint": "https://formspree.io/f/mzeejnav",
+    "formspreeEndpoint": "https://formspree.io/f/xwllgker",
     "intro": "Loved something? Missed something? We read every note and use your ideas to make Casa Corsica even better for the next guest."
   },
   "art": {
     "artist": "DGrout",
-    "intro": "Every original artwork in Casa Corsica is by DGrout, a West Coast artist inspired by the light, textures and colours of the bay. If a piece speaks to you, we'd love to put you in touch.",
+    "intro": "Some artwork found in Casa Corsica is by DGrout, a Cape Town artist inspired by the light, textures and colours of the bay. If a piece speaks to you, we'd love to put you in touch.",
     "pieces": [
       {
         "id": "tidal",
