@@ -9,8 +9,11 @@ import { Textarea } from '@/components/ui/textarea'
 import { guidebook } from '@/lib/guidebook'
 
 type FormspreeFormProps = {
+  endpoint?: string
   subject: string
+  nameRequired?: boolean
   emailRequired?: boolean
+  phoneRequired?: boolean
   messagePlaceholder?: string
   defaultMessage?: string
   submitLabel?: string
@@ -22,8 +25,11 @@ type FormspreeFormProps = {
 type Status = 'idle' | 'submitting' | 'success' | 'error'
 
 export function FormspreeForm({
+  endpoint = guidebook.suggestions.formspreeEndpoint,
   subject,
+  nameRequired = false,
   emailRequired = false,
+  phoneRequired = false,
   messagePlaceholder = 'Your message…',
   defaultMessage,
   submitLabel = 'Send',
@@ -39,7 +45,7 @@ export function FormspreeForm({
     const form = event.currentTarget
     setStatus('submitting')
     try {
-      const response = await fetch(guidebook.suggestions.formspreeEndpoint, {
+      const response = await fetch(endpoint, {
         method: 'POST',
         body: new FormData(form),
         headers: { Accept: 'application/json' },
@@ -74,9 +80,31 @@ export function FormspreeForm({
 
       <div className="flex flex-col gap-2">
         <Label htmlFor={`${id}-name`} className="text-sm">
-          Name <span className="font-normal text-muted-foreground">(optional)</span>
+          Name {!nameRequired && <span className="font-normal text-muted-foreground">(optional)</span>}
         </Label>
-        <Input id={`${id}-name`} name="name" autoComplete="name" className="h-12 rounded-xl bg-card px-4 text-base" />
+        <Input
+          id={`${id}-name`}
+          name="name"
+          autoComplete="name"
+          required={nameRequired}
+          className="h-12 rounded-xl bg-card px-4 text-base"
+        />
+      </div>
+
+      <div className="flex flex-col gap-2">
+        <Label htmlFor={`${id}-phone`} className="text-sm">
+          Phone {!phoneRequired && <span className="font-normal text-muted-foreground">(optional)</span>}
+        </Label>
+        <Input
+          id={`${id}-phone`}
+          name="phone"
+          type="tel"
+          inputMode="tel"
+          autoComplete="tel"
+          required={phoneRequired}
+          placeholder="+27 72 123 4567"
+          className="h-12 rounded-xl bg-card px-4 text-base"
+        />
       </div>
 
       <div className="flex flex-col gap-2">

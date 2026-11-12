@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ArrowLeft, Compass, House, Phone, Search, SlidersHorizontal, Sun, Utensils, type LucideIcon } from 'lucide-react'
+import { ArrowLeft, Compass, House, Palette, Phone, Search, SlidersHorizontal, Sun, Utensils, type LucideIcon } from 'lucide-react'
 import { type Section, useSection } from '@/hooks/use-section'
 import { guidebook } from '@/lib/guidebook'
 import { cn } from '@/lib/utils'
@@ -19,7 +19,8 @@ const tabs: { section: Section; label: string; icon: LucideIcon }[] = [
   { section: 'home', label: 'Welcome', icon: Sun },
   { section: 'explore', label: 'Explore', icon: Compass },
   { section: 'eat', label: 'Eat', icon: Utensils },
-  { section: 'house', label: 'House', icon: House },
+  { section: 'house', label: 'FAQ', icon: House },
+  { section: 'art', label: 'Art', icon: Palette },
   { section: 'contacts', label: 'SOS', icon: Phone },
 ]
 
@@ -66,7 +67,7 @@ export function GuideApp() {
         aria-label="Guide sections"
         className="fixed inset-x-0 bottom-0 z-40 border-t bg-background/90 pb-[env(safe-area-inset-bottom)] backdrop-blur-md"
       >
-        <ul className="mx-auto grid max-w-xl grid-cols-5">
+        <ul className="mx-auto grid max-w-xl grid-cols-6">
           {tabs.map(({ section: target, label, icon: Icon }) => {
             const active = section === target
             return (

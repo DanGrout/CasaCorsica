@@ -48,7 +48,7 @@ export function ArtSection() {
                   </p>
                   <p className="mt-1 flex items-center gap-1 text-xs text-muted-foreground">
                     <MapPin className="size-3.5" aria-hidden />
-                    Find it in the {piece.location.toLowerCase()}
+                    Find it: {piece.location.toLowerCase()}
                   </p>
                 </div>
                 <Button onClick={() => setSelected(piece)} className="h-11 rounded-xl" variant={piece.available ? 'default' : 'outline'}>
@@ -72,7 +72,10 @@ export function ArtSection() {
               </DialogHeader>
               <FormspreeForm
                 key={selected.id}
+                endpoint="https://formspree.io/f/xwlopqlp"
                 subject={`Art enquiry: ${selected.title} by ${art.artist}`}
+                nameRequired
+                phoneRequired
                 emailRequired
                 extraFields={{ artwork: `${selected.title} (${selected.medium}, ${selected.size})` }}
                 defaultMessage={`Hi, I'm staying at ${guidebook.property.name} and I'd love to know more about "${selected.title}".`}

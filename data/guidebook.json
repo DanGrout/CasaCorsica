@@ -492,9 +492,9 @@
   "contacts": {
     "emergency": [
       { "label": "Emergency (mobile)", "description": "All emergencies from any mobile phone", "phone": "112" },
-      { "label": "Estate Security", "description": "Shelley Point Security", "phone": "+27 (0)22 742 1380" },
+      { "label": "Estate Security", "description": "Shelley Point Security", "phone": "+27 22 742 1380" },
       { "label": "Ambulance", "description": "Medical emergencies", "phone": "10177" },
-      { "label": "Sea Rescue (NSRI)", "description": "Emergencies on the water", "phone": "+27 (0)87 094 9774" }
+      { "label": "Sea Rescue (NSRI)", "description": "Emergencies on the water", "phone": "+27 87 094 9774" }
     ],
     "local": [
       {
@@ -529,42 +529,51 @@
   },
   "art": {
     "artist": "DGrout",
-    "intro": "Some artwork found in Casa Corsica is by DGrout, a Cape Town artist inspired by the light, textures and colours of the bay. If a piece speaks to you, we'd love to put you in touch.",
+    "intro": "Much of the artwork featured throughout Casa Corsica is created by Cape Town artist DGrout, whose work is inspired by the light, textures, and colours of the bay. If a particular piece catches your eye, we would love to connect you. While the original on display may not be for sale, custom prints are available in a variety of sizes and mediums, with nationwide delivery. Please reach out to us if you’re interested in owning a piece.",
     "pieces": [
       {
-        "id": "tidal",
-        "title": "Tidal Memory",
-        "medium": "Mixed media on canvas",
-        "size": "120 × 90 cm",
-        "location": "Living room",
-        "image": "/images/art-tidal.webp",
+        "id": "stompneus-point",
+        "title": "Stompneus Point",
+        "medium": "Vector Illustration Print on Canvas",
+        "size": "A0 1200mm h x 805mm w",
+        "location": "Staircase wall",
+        "image": "/images/art-stompneus-point.webp",
         "available": true
       },
       {
-        "id": "fynbos",
-        "title": "Fynbos Study No. 3",
-        "medium": "Acrylic on canvas",
-        "size": "80 × 100 cm",
-        "location": "Dining area",
-        "image": "/images/art-fynbos.webp",
+        "id": "the-double-dawn",
+        "title": "The Double Dawn",
+        "medium": "Vector Illustration Print on Card",
+        "size": "A1 970mm h x 720mm w",
+        "location": "Dining area, feature wall",
+        "image": "/images/art-double-dawn.webp",
         "available": true
       },
       {
-        "id": "boats",
-        "title": "Three Boats, Stompneus",
-        "medium": "Oil on board, oak frame",
-        "size": "60 × 45 cm",
-        "location": "Main bedroom",
-        "image": "/images/art-boats.webp",
-        "available": false
+        "id": "friendly-neighbours-sky",
+        "title": "Friendly Neighbours from the Sky",
+        "medium": "Vector Illustration Print on Card",
+        "size": "A3 510mm h x 390mm w x 4",
+        "location": "Passage",
+        "image": "/images/art-friendlies.webp",
+        "available": true
       },
       {
-        "id": "horizon",
-        "title": "Black Horizon",
-        "medium": "Acrylic & palette knife on canvas",
-        "size": "150 × 70 cm",
-        "location": "Guest bedroom",
-        "image": "/images/art-horizon.webp",
+        "id": "clifton-3rd",
+        "title": "Clifton's 3rd",
+        "medium": "Vector Illustration Print on Canvas",
+        "size": "A1 900mm w x 600mm h",
+        "location": "Not currently on display",
+        "image": "/images/art-clifton-3rd.webp",
+        "available": true
+      },
+      {
+        "id": "kayak-coast",
+        "title": "Kayak Coast",
+        "medium": "Vector Illustration Print on Card",
+        "size": "A1 900mm w x 600mm h",
+        "location": "Not currently on display",
+        "image": "/images/art-kayak-coast.webp",
         "available": true
       }
     ]
