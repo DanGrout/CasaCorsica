@@ -10,7 +10,7 @@
     "greeting": "Welkom and welcome to Casa Corsica! We are so happy you chose our little piece of the West Coast. Kick off your shoes, open the doors to the sea air and make yourself at home. Everything you need to know for a slow, salty, sun-filled stay is in this guide — and if anything is missing, just give us a shout.",
     "checkIn": "15:00",
     "checkOut": "10:00",
-    "checkInNotes": "Unless organised prior to check in, self check-in from 15:00. The key lockbox is to the left of the front door — your code is sent the morning of arrival.",
+    "checkInNotes": "Unless organised prior to check in, self check-in from 15:00. The key is in the Blue lockbox to the left of the front door — your code is sent the morning of arrival. Please return the key to the lockbox on departure. If you have any issues, please call or WhatsApp us.",
     "wifi": {
       "network": "ShellWeConnect"
     },
@@ -76,6 +76,24 @@
         "time": "5 min drive",
         "categories": ["beach", "outdoors", "active"],
         "additionalLinks": [{"title": "Surfing Spot", "url": "https://maps.app.goo.gl/pcHj3CgEMLoy4xYdA"}, {"title":"Surfing Conditions", "url": "https://surf-reports.com/South-Africa/Western-Cape/West-Coast-District-Municipality/Stompneus/"}, {"title": "Parking Area", "url": "https://maps.app.goo.gl/iD9u6zgqnAGXNhBi6"}, {"title": "History and Map", "url": "https://www.mondo.surf/surf-spot/heaven/guide/12275"}]
+      },
+      {
+        "id": "shelley-point-pool",
+        "name": "Private Pool at Shelley Point",
+        "description": "Take a refreshing dip in the private pool located just behind the house. The pool is perfect for families and offers a tranquil escape from the wind and the heat. Please keep children supervised at all times. Please note that the pool requires an access tag, the tag is located on the guest set of keys.",
+        "image": "/images/swimming-pool.webp",
+        "time": "15 min walk or 5 min drive",
+        "categories": ["outdoors", "family"],
+        "additionalLinks": [{"title": "Pool Access", "url": "https://maps.app.goo.gl/yourpoolaccesslink"}]
+      },
+      {
+        "id": "shelley-putt-putt",
+        "name": "Shelley Point Putt-Putt",
+        "description": "Enjoy a round of Putt Putt at the Shelley Point Putt-Putt course. Perfect for families and golf enthusiasts alike.",
+        "image": "/images/putt-putt.webp",
+        "time": "10 min walk or 5 min drive",
+        "categories": ["outdoors", "family"],
+        "additionalLinks": [{"title": "Putt-Putt Course", "url": "https://maps.app.goo.gl/yourputtputtlink"}]
       },
       {
         "id": "the-local-market",
@@ -471,7 +489,12 @@
     {
       "id": "house-rules",
       "title": "House rules",
-      "body": "No smoking or vaping indoors. No parties or events. Maximum occupancy is as booked. Pets by prior arrangement only. Please keep beach sand outside — there is an outdoor tap in the garden."
+      "body": "No smoking or vaping indoors. No parties or events. Maximum occupancy is as booked. Pets by prior arrangement only. Please keep beach sand outside — there is an outdoor tap in the garden or brush under the sink. The Garage is Private."
+    },
+    {
+      "id": "lights",
+      "title": "Automatic lights on feature wall",
+      "body": "The lights on the feature wall turn on automatically at 6p.m. and off at 11pm. Should you wish to switch them off, there is a switch on the plugpoint behind the picture frame."
     },
     {
       "id": "late-checkout",
@@ -574,6 +597,15 @@
         "size": "A1 900mm w x 600mm h",
         "location": "Not currently on display",
         "image": "/images/art-kayak-coast.webp",
+        "available": true
+      },
+      {
+        "id": "crown-of-callosities",
+        "title": "Crown of Callosities",
+        "medium": "Vector Illustration Print on Card",
+        "size": "A1 900mm w x 600mm h",
+        "location": "Not currently on display",
+        "image": "/images/art-crown.webp",
         "available": true
       }
     ]
